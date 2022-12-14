@@ -1,19 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <title>Special Recipes</title>
-</head>
-<body>
-    <h1>Special Recipes</h1>
-    <ul class="recipes">
-        <li><a href="recipes/hanukkah.html">A Traditional Menu for Hanukkah</a></li>
-        <li><a href="recipes/rib.html">Prime Rib</a></li>
-        <li><a href="recipes/sufganiot.html">Sufganiot</a></li>
-    </ul>
-</body>
+  </head>
+  <body>
+    <div class="container">
+        <!-- Start nav bar -->
+      <nav class="navbar">
+        <ul class="navbar_items">
+          <li class="navbar_item">
+            <a href="index.html" class="active">Home</a>
+          </li>
+
+          <div class="left-side">
+            <li class="navbar_item">
+              <a href="recipes/hanukkah.html">Hanukkah</a>
+            </li>
+            <li class="navbar_item">
+              <a href="recipes/rib.html">Prime Rib</a>
+            </li>
+            <li class="navbar_item">
+              <a href="recipes/sufganiot.html">Sufganiot</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+      <!-- End nav bar -->
+      <!-- Start main -->
+      <main class="flow-content">
+        <h1 class="primary-heading">Special Recipes</h1>
+        <p class="primary-paragraph">
+          Welcome to our special recipes page. Here you will find recipes for
+          Hanukkah, Prime Rib, and Sufganiot.</p>
+        <ul class="recipe_items">
+          <li class="recipe_item">
+            <img src="imgs/hanukkah.webp" alt="" />
+            <a href="recipes/hanukkah.html">A Traditional Menu for Hanukkah</a>
+          </li>
+
+          <li class="recipe_item">
+            <img src="imgs/ribs.jpg" alt="" />
+            <a href="recipes/rib.html">Prime Rib</a>
+          </li>
+
+          <li class="recipe_item">
+            <img src="imgs/sufganio.webp" alt="" />
+
+            <a href="recipes/sufganiot.html">Sufganiot</a>
+          </li>
+        </ul>
+      </main>
+        <!-- End main -->
+    </div>
+  </body>
 </html>
